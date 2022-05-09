@@ -1,0 +1,62 @@
+.input {
+  background: none;
+  border: none;
+  outline: none;
+  width: 5.5em;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.invalidInput {
+  background: linear-gradient(73.97deg, #ff000031 -1.55%, rgb(25 5 27 / 23%));
+  border: 1px rgb(90, 27, 27) solid;
+  caret-color: crimson;
+}
+
+.validInput {
+  background: linear-gradient(73.97deg, #ce0baf1c -1.55%, rgb(25 5 27 / 23%));
+  border: 1px #555 solid;
+  caret-color: #555;
+}
+
+.wrapper {
+  width: 9em;
+  margin: 3em 1em 1em 1em;
+  color: #ffffff;
+  padding: 0.3em;
+  text-align: center;
+  border-radius: 0.8em;
+  box-shadow: -2px 3px 2em 0px rgb(0 0 0 / 64%);
+  position: relative;
+  backdrop-filter: blur(4px);
+  overflow: hidden;
+  display: grid;
+  align-items: center;
+  margin: 0.2em;
+  transition: border 450ms ease-in-out;
+}
+
+.subtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  margin-top: 0.3em;
+  width:15.5em !important;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

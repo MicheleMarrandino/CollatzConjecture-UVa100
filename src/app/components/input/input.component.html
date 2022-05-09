@@ -1,0 +1,14 @@
+<div class="container" >
+  <div class="wrapper" [ngClass]="invalidity ? 'invalidInput' : 'validInput'">
+    <input
+      autofocus
+      placeholder="1"
+      [(ngModel)]="value"
+      [min]="min"
+      [max]="max"
+      (ngModelChange)="checkValidity()"
+      class="input"
+    />
+  </div>
+  <h3 class="subtitle" [innerHTML]="text"></h3>
+</div>
